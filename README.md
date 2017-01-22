@@ -331,7 +331,7 @@ var rect = new Rectangle(4, 3, 2);
 ```
 
 And everything works as expected. But what if we are creating a system
-that represents a cartesian plane, and every shape on the plan needs an
+that represents a cartesian plane, and every shape on the plane needs an
 (x,y) coordinate position?
 
 We could add those values to our `Rectangle` definition, but we also
