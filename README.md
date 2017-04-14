@@ -17,7 +17,7 @@ first design the *Class*, or blueprint, of an object, and then create
 objects from that blueprint in order to use them.
 
 Imagine a set of instructions from IKEA as the *Class*, and your
-assembled Fthugënbøller bookcase as the *object*.
+assembled Fthügënbøller bookcase as the *object*.
 
 JavaScript uses prototypal OO. Instead of creating a nonfunctional class
 definition, we actually create the object, which is then used as a
@@ -159,7 +159,7 @@ square.internalAngles;
 
 Here, we've added a new property, `internalAngles`, to
 `Rectangle.prototype`. This means that everything created from the
-prototypal `Rectangle` will also have acces to this new property, even
+prototypal `Rectangle` will also have access to this new property, even
 though it was added after the fact. This is done through *delegation*,
 which we'll explore in the next section.
 
