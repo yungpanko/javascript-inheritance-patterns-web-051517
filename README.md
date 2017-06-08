@@ -237,7 +237,7 @@ square.internalAngles;
 ```
 
 If we just examined these two objects with `console.log(square)` and
-`cosole.log(rect)`, we would see that neither explicitly has the
+`console.log(rect)`, we would see that neither explicitly has the
 `internalAngles` property. This means that `rect` is *delegating* it to
 the `Rectangle` prototype, and `square` is not.
 
