@@ -381,7 +381,7 @@ then added the `Rectangle` specific properties.
 
 The key difference is that we are explicitly setting the
 `Rectangle.prototype` to a `Shape.prototype` using
-`Object.create`. This allows us assign a prototype to an object when we
+`Object.create`. This allows us to assign a prototype to an object when we
 create it, rather than letting it be assigned for us via the
 constructor function.
 
